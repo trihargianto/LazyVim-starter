@@ -1,3 +1,4 @@
--- Keymaps are automatically loaded on the VeryLazy event
--- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
--- Add any additional keymaps here
+-- Do things without affecting the registers
+vim.keymap.set("n", "x", '"_x')
+vim.keymap.set("n", "<Leader>p", '"0p')
+vim.keymap.set("n", "<Leader>P", '"0P')
