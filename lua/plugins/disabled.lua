@@ -4,10 +4,4 @@ return {
 
   -- Disable indent guide highlight
   { "echasnovski/mini.indentscope", enabled = false },
-
-  -- Disable the startup dashboard
-  {
-    "nvimdev/dashboard-nvim",
-    enabled = false,
-  },
 }
