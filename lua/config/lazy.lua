@@ -31,10 +31,14 @@ require("lazy").setup({
     -- version = "*", -- try installing the latest stable version for plugins that support semver
   },
   install = { colorscheme = { "tokyonight", "habamax" } },
-  checker = {
+
+  -- Disable annoying popup during startup
+  -- https://github.com/LazyVim/LazyVim/discussions/1479#discussioncomment-8070791
+  checker = { 
     enabled = true, -- check for plugin updates periodically
-    notify = false, -- notify on update
-  }, -- automatically check for plugin updates
+    notify = false, -- notify on update 
+  },
+
   performance = {
     rtp = {
       -- disable some rtp plugins
