@@ -1,5 +1,6 @@
 return {
   "CopilotC-Nvim/CopilotChat.nvim",
+  enabled = false,
   config = function(_, opts)
     local chat = require("CopilotChat")
 

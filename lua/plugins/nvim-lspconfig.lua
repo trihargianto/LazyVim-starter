@@ -5,6 +5,7 @@ return {
       tailwindcss = {
         settings = {
           tailwindCSS = {
+            classFunctions = { "cva", "cx" },
             experimental = {
               classRegex = {
                 -- Match cn (common shadcn/ui pattern)
